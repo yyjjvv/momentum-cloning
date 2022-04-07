@@ -1,0 +1,118 @@
+@charset "utf-8";
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap");
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	color: #fff;
+	line-height: 1;
+	text-align: center;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.hidden {
+	display: none;
+}
+#wrap {
+	width: 100%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+#header #logout-form {
+	display: inline-block;
+}
+#header #logout {
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.8);
+}
+#header .status,
+#header .city {
+	font-size: 16px;
+}
+#header .temp {
+	font-weight: 700;
+	margin: 0 10px;
+}
+
+#contents {
+	position: relative;
+}
+.clock-area {
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+.clock-area #clock {
+	font-size: 120px;
+	font-weight: 700;
+}
+.clock-area .amPm {
+	font-size: 50px;
+	margin-top: 60px;
+	margin-left: 20px;
+	font-weight: 200;
+}
+
+#login-form,
+#greeting {
+	margin-top: 30px;
+}
+#login-form label {
+	display: block;
+	font-size: 30px;
+	font-weight: 600;
+}
+#login-form input#name {
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	width: 350px;
+	height: 40px;
+	border-bottom: 3px solid #fff;
+}
+
+#greeting {
+	font-size: 36px;
+}
+
+#todo-form {
+	margin-top: 40px;
+}
+#todo-form label {
+	display: block;
+}
+#todo-form input {
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	width: 450px;
+	height: 30px;
+	border-bottom: 3px solid #fff;
+}
+#todo-list {
+	margin-top: 20px;
+}
+#todo-list li {
+	margin-bottom: 10px;
+}
+
+#footer {
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	bottom: 0;
+}
+#footer #quote {
+	font-size: 16px;
+	margin-top: 30px;
+}
