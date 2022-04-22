@@ -1,5 +1,5 @@
 # momentum-cloning
-Cloned chrome extension program 'Momemtum'.
+Chrome app'Momemtum' cloning.
 
 ---
 
